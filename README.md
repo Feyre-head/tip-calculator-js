@@ -27,7 +27,7 @@ Perfect for use at restaurants, bars, or any time you need to quickly and fairly
 
 > *(Insert screenshot or gif here)*  
 > Example:  
-> ![App Preview](./screenshot.png)
+> ![App Preview](./aa5b1d91-1efc-4187-8ecd-761ae2c76888.png)
 
 ---
 
