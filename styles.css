@@ -105,3 +105,116 @@ html, body{
   .range::-moz-focus-outer {
     border: 0;
   }
+
+
+/* Breakpoint até 1200px — desktop reduzido ou notebook */
+@media (max-width: 1280px) {
+  html {
+    font-size: 8px;
+  }
+
+  main {
+    margin: 1.6rem auto;
+    padding: 2rem 1.2rem 4rem;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  .total {
+    font-size: 1.8rem;
+  }
+}
+
+/* Breakpoint até 992px — tablets paisagem */
+@media (max-width: 992px) {
+  html {
+    font-size: 8.5px;
+  }
+
+  .bill {
+    flex-direction: column;
+  }
+
+  .bill label,
+  .bill input {
+    width: 100%;
+    margin-bottom: 0.8rem;
+  }
+
+  input[type="number"] {
+    font-size: 1.4rem;
+  }
+
+  section {
+    font-size: 1.6rem;
+  }
+
+  .total {
+    font-size: 1.6rem;
+  }
+
+  h1 {
+    font-size: 2.2rem;
+  }
+}
+
+/* Breakpoint até 768px — tablets retrato ou celulares grandes */
+@media (max-width: 768px) {
+  html {
+    font-size: 8px;
+  }
+
+  main {
+    padding: 2rem 1rem 3rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  section {
+    padding: 0 1.2rem;
+  }
+
+  .range {
+    height: 6px;
+  }
+
+  .range::-webkit-slider-thumb,
+  .range::-moz-range-thumb {
+    width: 1.8rem;
+    height: 1.8rem;
+  }
+}
+
+/* Breakpoint até 480px — celulares pequenos */
+@media (max-width: 480px) {
+  html {
+    font-size: 7.5px;
+  }
+
+  main {
+    margin: 1rem auto;
+    padding: 1.6rem;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  input[type="number"] {
+    font-size: 1.4rem;
+  }
+
+  section {
+    font-size: 1.4rem;
+    padding: 0 1rem;
+  }
+
+  .total {
+    font-size: 1.4rem;
+  }
+}
