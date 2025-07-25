@@ -23,11 +23,15 @@
         <div class="space-between">
           <label for="">Select tip</label><span id="tipPercent"></span>
         </div>
-        <input type="range" value="0" id="tipInput" class="range" />
+        <input type="range" value="0" id="tipInput" class="range" aria-label="0" />
       </div>
       <div class="space-between">
         <span>Tip</span>
         <span id="tipValue"></span>
+      </div>
+      <div class="space-between">
+        <span>TipEach</span>
+        <span id="tipValueEach"></span>
       </div>
       <hr />
       <div class="space-between total">
@@ -48,6 +52,7 @@
         <span>Bill each</span>
         <span id="billEach"></span>
       </div>
+      
     </section>
   </main>
   <script src="index.js"></script>
